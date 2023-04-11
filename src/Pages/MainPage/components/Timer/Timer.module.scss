@@ -1,0 +1,16 @@
+.timer {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    justify-content: center;
+    display: flex;
+    .wrap {
+        background-color: #ededed;
+        padding: 24px;
+        border-radius: 12px;
+        color: #373745;
+        letter-spacing: 0.25px;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 34px;
+    }
+}

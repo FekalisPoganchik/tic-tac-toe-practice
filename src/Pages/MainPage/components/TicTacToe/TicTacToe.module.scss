@@ -1,0 +1,41 @@
+.board {
+    display: flex;
+    .row {
+        .square {
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 190px;
+            height: 190px;
+            margin: 0 4px 4px 0;
+            border-radius: 12px;
+        }
+        .winner-o {
+            background-color: #f3bbd0;
+        }
+        .winner-x {
+            background-color: #cfede6;
+        }
+    }
+}
+.status {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+
+    .msg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #373745;
+        color: #fff;
+        padding: 8px 69px;
+        border-radius: 12px;
+        box-shadow: 0px 4px 20px rgba(44, 57, 121, 0.09);
+        svg {
+            height: 24px;
+            width: 24px;
+        }
+    }
+}
